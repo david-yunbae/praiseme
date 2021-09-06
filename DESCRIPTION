@@ -1,0 +1,22 @@
+Package: praiseme
+Title: What the Package Does (One Line, Title Case)
+Version: 0.0.0.9000
+Authors@R: 
+    person(given = "Yunbae",
+           family = "Chae",
+           role = c("aut", "cre"),
+           email = "yunbae.chae@mq.students.edu.au",
+           comment = c(ORCID = "YOUR-ORCID-ID"))
+Description: We all deserve a little encouragement sometimes
+  to keep us going (Plus Ultra!). This package aims to deliver
+  a little praise whenever you need them.
+License: MIT + file LICENSE
+Encoding: UTF-8
+LazyData: true
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.1.1
+Imports: 
+    glue
+Suggests: 
+    testthat (>= 3.0.0)
+Config/testthat/edition: 3
